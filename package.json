@@ -1,8 +1,14 @@
 {
   "name": "@cube/cz-cube",
+  "private": true,
   "version": "0.0.0",
   "main": "index.js",
   "description": "Commitizen adapter following the cube engineering format.",
+  "homepage": "https://github.com/cube-planning/cz-cube/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cube-planning/cz-cube.git"
+  },
   "dependencies": {
     "chalk": "4.1.0",
     "commitizen": "4.2.3",
