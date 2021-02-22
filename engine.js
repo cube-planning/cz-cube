@@ -145,9 +145,7 @@ module.exports = function(options) {
         // Wrap these lines at options.maxLineWidth characters
         var body = answers.body ? wrap(answers.body, wrapOptions) : false;
 
-        var issues = answers.issues ? wrap(answers.issues, wrapOptions) : false;
-
-        commit(filter([head, body, issues]).join('\n\n'));
+        commit(filter([head, body]).join('\n\n'));
       });
     }
   };
