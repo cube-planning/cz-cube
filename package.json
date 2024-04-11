@@ -10,11 +10,16 @@
     "url": "https://github.com/cube-planning/cz-cube.git"
   },
   "dependencies": {
-    "chalk": "4.1.0",
-    "commitizen": "4.2.4",
+    "chalk": "4.1.2",
+    "commitizen": "4.3.0",
     "conventional-commit-types": "3.0.0",
     "lodash.map": "4.6.0",
     "longest": "2.0.1",
-    "word-wrap": "1.2.3"
+    "word-wrap": "1.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
   }
 }
